@@ -1,1 +1,15 @@
 <p>project works!</p>
+<section id="projects" class="py-16 px-6 bg-gray-100 text-gray-900">
+    <h2 class="text-4xl font-bold text-center mb-12">Mes projets</h2>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div *ngFor="let project of projects" class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition overflow-hidden">
+        <img [src]="project.image" alt="project.title" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-2xl font-semibold mb-2">{{ project.title }}</h3>
+          <p class="text-gray-600 mb-4">{{ project.description }}</p>
+          <a [href]="project.link" target="_blank" class="text-indigo-600 hover:underline">Voir plus →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
