@@ -1,0 +1,79 @@
+/* src/app/home/home.component.css */
+
+/* General Styles for Home Section */
+.bg-image {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .display-table {
+    width: 100%;
+    height: 100%;
+    display: table;
+  }
+  
+  .table-cell {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  /* Intro Section Styles */
+  .intro {
+    height: 100vh;
+    position: relative;
+    color: #fff;
+  }
+  
+  .intro .intro-content {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .intro .overlay-itro {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .intro .intro-title {
+    color: #fff;
+    font-weight: 600;
+    font-size: 3rem;
+  }
+  
+  .intro .intro-subtitle {
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+  
+  .intro .text-slider-items {
+    display: none;
+  }
+  
+  /* Responsive Adjustments */
+  @media (min-width: 768px) {
+    .intro .intro-title {
+      font-size: 4.5rem;
+    }
+  
+    .intro .intro-subtitle {
+      font-size: 2.5rem;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .bg-image {
+      background-attachment: scroll;
+    }
+  }

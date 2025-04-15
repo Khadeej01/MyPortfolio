@@ -1,0 +1,93 @@
+/* src/app/about/about.component.css */
+
+/* Section Padding */
+.about-mf .box-shadow-full {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  
+  .sect-pt4 {
+    padding-top: 4rem;
+  }
+  
+  /* Title Styles */
+  .title-box {
+    margin-bottom: 4rem;
+  }
+  
+  .title-a {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #1e1e1e;
+  }
+  
+  .line-mf {
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;
+  }
+  
+  /* Box Shadow */
+  .box-shadow-full {
+    padding: 3rem 1.25rem;
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  /* About Image */
+  .about-img {
+    margin-bottom: 2rem;
+  }
+  
+  .about-img img {
+    margin-left: 10px;
+  }
+  
+  /* About Me Text */
+  .about-me .lead {
+    color: #4e4e4e;
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+  
+  /* Skills Section */
+  .skill-mf .title-s {
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .skill-mf span {
+    color: #4e4e4e;
+  }
+  
+  .skill-mf .progress {
+    background-color: #cde1f8;
+    margin: 0.5rem 0 1.2rem 0;
+    border-radius: 0;
+    height: 0.7rem;
+  }
+  
+  .skill-mf .progress .progress-bar {
+    height: 0.7rem;
+    background-color: #0078ff;
+  }
+  
+  /* Responsive Adjustments */
+  @media (min-width: 767px) {
+    .about-mf .box-pl2 {
+      margin-top: 3rem;
+      padding-left: 0rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .box-shadow-full {
+      padding: 3rem;
+    }
+  }

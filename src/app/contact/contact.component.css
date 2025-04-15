@@ -1,0 +1,43 @@
+.contact-section {
+    padding: 50px 0;
+  }
+  .contact-section h2 {
+    position: relative;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  .contact-section h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 50px;
+    height: 3px;
+    background-color: #007bff;
+  }
+  .form-control {
+    border-radius: 0;
+    border: 1px solid #ced4da;
+    margin-bottom: 20px;
+  }
+  .form-control:focus {
+    box-shadow: none;
+    border-color: #007bff;
+  }
+  .contact-info p {
+    margin-bottom: 20px;
+  }
+  .contact-info i {
+    color: #007bff; /* Icônes de localisation, téléphone, email en bleu */
+    margin-right: 10px;
+    font-size: 18px; /* Ajuster la taille pour correspondre à l'image */
+  }
+  .social-icons a {
+    margin-right: 15px; /* Espacement légèrement plus grand pour correspondre à l'image */
+    font-size: 24px; /* Taille des icônes des réseaux sociaux */
+    color: #000; /* Noir par défaut */
+    text-decoration: none;
+  }
+  .social-icons a:hover {
+    color: #007bff; /* Bleu au survol */
+  }

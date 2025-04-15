@@ -1,15 +1,39 @@
-<p>project works!</p>
-<section id="projects" class="py-16 px-6 bg-gray-100 text-gray-900">
-    <h2 class="text-4xl font-bold text-center mb-12">Mes projets</h2>
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-      <div *ngFor="let project of projects" class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition overflow-hidden">
-        <img [src]="project.image" alt="project.title" class="w-full h-48 object-cover">
-        <div class="p-4">
-          <h3 class="text-2xl font-semibold mb-2">{{ project.title }}</h3>
-          <p class="text-gray-600 mb-4">{{ project.description }}</p>
-          <a [href]="project.link" target="_blank" class="text-indigo-600 hover:underline">Voir plus →</a>
+<section id="work" class="portfolio-mf sect-pt4 route">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="title-box text-center">
+          <h3 class="title-a">Portfolio</h3>
+          <p class="subtitle-a">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          <div class="line-mf"></div>
         </div>
       </div>
     </div>
-  </section>
-  
+    <div class="row">
+      <div class="col-md-4" *ngFor="let project of projects">
+        <div class="work-box">
+          <a [href]="project.image" data-lightbox="gallery-mf">
+            <div class="work-img">
+              <img [src]="project.image" alt="" class="img-fluid">
+            </div>
+            <div class="work-content">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h2 class="w-title">{{ project.title }}</h2>
+                  <div class="w-more">
+                    <span class="w-ctegory">{{ project.category }}</span> / <span class="w-date">{{ project.date }}</span>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="w-like">
+                    <span class="ion-ios-plus-outline"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

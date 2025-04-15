@@ -1,0 +1,55 @@
+/* src/app/skills/skills.component.css */
+
+/* Section Padding */
+.skills-mf {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  
+  .sect-pt4 {
+    padding-top: 4rem;
+  }
+  
+  /* Title Styles */
+  .title-box {
+    margin-bottom: 4rem;
+  }
+  
+  .title-a {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #1e1e1e;
+  }
+  
+  .line-mf {
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;
+  }
+  
+  /* Skills Section */
+  .skill-mf span {
+    color: #4e4e4e;
+    font-size: 1rem;
+  }
+  
+  .skill-mf .progress {
+    background-color: #cde1f8;
+    margin: 0.5rem 0 1.2rem 0;
+    border-radius: 0;
+    height: 0.7rem;
+  }
+  
+  .skill-mf .progress .progress-bar {
+    height: 0.7rem;
+    background-color: #0078ff;
+  }
+  
+  /* Responsive Adjustments */
+  @media (min-width: 768px) {
+    .skill-mf {
+      padding: 0 1rem;
+    }
+  }
