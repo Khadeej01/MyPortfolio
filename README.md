@@ -1,63 +1,58 @@
-<<<<<<< HEAD
-# PortFolioKhadija
+# Portfolio Web Interactif
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.6.
+## Contexte du projet
 
-## Development server
+Ce projet consiste à créer mon portfolio professionnel interactif autant que  développeurse freelance en développement web. L'objectif est de présenter Les compétences, projets, et parcours de manière dynamique, tout en mettant en pratique les technologies suivantes : **Angular**, **TypeScript**, **Responsive Design** et les bonnes pratiques de développement frontend.
 
-To start a local development server, run:
+## Fonctionnalités
+
+## Structure des Sections du Site
+
+- **Navbar** : avec liens ancrés (Accueil, About, Projets, Contact, CV).
+- **Accueil (Home)** : Nom, rôle.
+- **À propos (About)** : Bio, parcours,photo, compétences (langages, frameworks, outils).
+- **Projets** : Cartes de projets (image, titre, description, liens).
+- **Contact** : Formulaire (Nom, Email, Message) + confirmation d’envoi.
+- **Footer** : Raccourcis, copyright.
+
+### Fonctionnalités Bonus
+
+- Télécharger mon CV au format PDF.
+- Dark mode / Light mode.
+- Version multilingue (Français / Anglais).
+
+## Technologies utilisées
+
+- **Framework** : Angular 19
+- **Langages** : TypeScript, HTML, CSS
+- **UI Framework** :  Bootstrap 
+- **Hébergement** : GitHub Pages 
+
+## Architecture du projet
+
+### Composants
+
+- `home` : Page d'accueil.
+- `about` : Page "À propos".
+- `project` : Page des projets.
+- `cv` : Page du CV (optionnel).
+- `contact` : Formulaire de contact.
+- `navbar` : Barre de navigation.
+- `footer` : Pied de page.
+
+### Modules
+
+- `AppRoutingModule` : Module de routage pour la navigation entre les pages.
+
+## Instructions de Lancement
+
+### Prérequis
+
+. Angular CLI (version >= 19.x)
+
+### Installation
+
+1. Clonez le repository :
 
 ```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-=======
-# MyPortfolio
->>>>>>> 931788cc349e47dae6e6d5d7dafc82c3793eb84e
+https://github.com/Khadeej01/MyPortfolio.git
